@@ -54,7 +54,42 @@
         </section>
       </aside>
     </div>
-    <footer>Call an action → change the state → update the page.</footer>
+
+
+<!-- Assignment 3: Interactive forge controls -->
+<section class="panel">
+
+  <h2>Control your forge</h2>
+
+  <!-- Label tells the player what number to enter -->
+  <label for="heat-input">Heat to add:</label>
+
+  <!-- Number input for adding heat -->
+  <input
+    type="number"
+    id="heat-input"
+    min="1"
+    step="1"
+  >
+
+  <!-- Button adds the entered heat -->
+  <button type="button" id="add-heat-button">
+    Add heat
+  </button>
+
+  <!-- Button attempts to make one sword -->
+  <button type="button" id="make-sword-button">
+    Make sword
+  </button>
+
+  <!-- Button resets the game -->
+  <button type="button" id="reset-forge-button">
+    Reset forge
+  </button>
+
+</section>
+
+  <footer>Call an action → change the state → update the page.</footer>
   </main>
 </body>
 </html>
